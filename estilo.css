@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital@1&display=swap');*{
+    font-family: 'Shantell Sans';
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 20px;
+    background: #ac74e0;
+    padding-bottom: 50px;
+}
+h1{
+    text-align: center;
+}
+#juego{
+    max-width: 800px;
+    margin: auto;
+}
+.contenedor-pregunta{
+    border: 1px solid #400bff;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #ece6e6;
+}
+label{
+    display: flex;
+    font-size: 22px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+input{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.correcta{
+    background-color: #3bfd00;
+}
+.incorrecta{
+    background-color: #e02525;
+}
+.acierto{
+    font-size: 20px;
+    background-color: yellowgreen;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    margin-left: 15px;
+}
+.no-acierto{
+    font-size: 20px;
+    background-color: darkred;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    margin-left: 15px;
+}
+button{
+    width: fit-content;
+    display: block;
+    margin: auto;
+    border: none;
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.resultado{
+    text-align: center;
+}
